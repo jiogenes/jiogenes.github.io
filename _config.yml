@@ -24,14 +24,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jiogenes' Blog
+title: jiogenes
 email: jee9894@github.com
 author: jiogenes
 copyright: Copyright © 1970-2022
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Tech Blog
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -117,7 +115,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -137,11 +135,11 @@ yat:
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "함께 공부하는 블로그"
+    subheading: "쉽고 재밌고 겸손한 자세로 포스팅 하겠습니다"
+    # banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -166,8 +164,8 @@ yat:
 # paginate: 5
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "jiogenes"
 
 # Gitment comments
 # gitment:
