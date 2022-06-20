@@ -165,7 +165,7 @@ defaults:
 
 # Disqus comments
 disqus:
-  shortname: "jiogenes"
+  shortname: https-jiogenes-github-io
 
 # Gitment comments
 # gitment:
