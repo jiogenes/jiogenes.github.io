@@ -65,6 +65,10 @@ sidebar:
       {%- include extensions/comments/disqus.html -%}
       {%- endif -%}
 
+      {%- if site.utterances.repo -%}
+      {%- include extensions/comments/utterances.html -%}
+      {%- endif -%}
+
       {%- if site.gitment.username -%}
       {%- include extensions/comments/gitment.html -%}
       {%- endif -%}
