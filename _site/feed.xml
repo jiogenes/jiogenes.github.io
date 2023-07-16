@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-16T22:40:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jiogenes</title><subtitle>Tech Blog</subtitle><author><name>jiogenes</name></author><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 2</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 2" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-16T23:09:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jiogenes</title><subtitle>Tech Blog</subtitle><author><name>jiogenes</name></author><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 2</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 2" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
 
 <p>이번 시간에는 본격적으로 인공지능을 공부하기에 앞서 인공지능에 대한 간단한 역사와 최근 동향들을 살펴보겠습니다.</p>
 
@@ -59,7 +59,7 @@
 
 <h2 id="인공지능의-최근-동향">인공지능의 최근 동향</h2>
 
-<p>인공지능은 정말 기하급수적으로 발전하고 있습니다. 2006년 제프리힌튼 교수가 이끄는 AlexNet 팀이 <a href="https://www.image-net.org/challenges/LSVRC/">ILSVRC</a>라는 컴퓨터 비전 대회에서 앞선 연구들과 큰 격차로 우승했던것을 기점으로 연구자들 사이에서 센세이션을 일으켰습니다. 이로인해 대회에 참가하는 다른 팀들도 거의다 딥러닝 기법을 사용하기 시작했고 결국 ILSVRC는 2017년에 딥러닝 모델이 인간이 한 것 보다 더 잘하게 된 이후 대회가 종료되었습니다.</p>
+<p>인공지능은 정말 기하급수적으로 발전하고 있습니다. 2006년 제프리힌튼 교수가 이끄는 AlexNet 팀이 <a href="https://www.image-net.org/challenges/LSVRC/">ILSVRC(ImageNet Large Scale Visual Recognition Challenge)</a>라는 컴퓨터 비전 대회에서 앞선 연구들과 큰 격차로 우승했던것을 기점으로 연구자들 사이에서 센세이션을 일으켰습니다. 이로인해 대회에 참가하는 다른 팀들도 거의다 딥러닝 기법을 사용하기 시작했고 결국 ILSVRC는 2017년에 딥러닝 모델이 인간이 한 것 보다 더 잘하게 된 이후 대회가 종료되었습니다.</p>
 
 <p>그리고 IBM에서 2011년에 발표한 <code class="language-plaintext highlighter-rouge">왓슨</code>이 미국의 퀴즈쇼 제퍼디(Jeopardy!)에서 다른 인간 참가자들과 경쟁하여 우승하기도 했습니다. 전세계적으로 딥러닝이라는 말을 사람들에게 각인시킨 사건은 2016년 이세돌 기사와 바둑 대국을 둔 <code class="language-plaintext highlighter-rouge">알파고</code>가 아닐까 싶습니다. 저도 당시 TV를 통해 이세돌과 알파고가 바둑두던 생중계를 지켜보던 기억이 나는데, 아마도 그때부터 인공지능 분야에서 일을 해보고 싶다는 생각을 하게 된 것 같습니다.</p>
 
@@ -91,7 +91,18 @@
 <p>
     <img width="735" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/84f222a6-7fe8-4238-97bf-6f727ec322da" />
     <em>ChatGPT와의 대화 [출처:ChatGPT]</em>
-</p>]]></content><author><name>jiogenes</name></author><category term="리뷰" /><summary type="html"><![CDATA[안녕하세요. jiogenes입니다.]]></summary></entry><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 1</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 1" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
+</p>
+
+<p>이처럼 인공지능의 발전은 눈부시지만 이로인해 필연적으로 생기는 윤리 문제와 사회적 문제들은 이제 더이상 무시할 수 없습니다. 위의 최근 동향에서 언급한 모델들은 현재도 계속 윤리 문제와 사회적 문제들을 일으켜서 논의가 되고 있는 모델들 입니다. 실제로 YOLO의 개발자 Joseph Redmon은 군용 목적, 사생활 침해 등의 이유로 YOLO의 개발 중단을 선언했습니다.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.<a href="https://t.co/DMa6evaQZr">https://t.co/DMa6evaQZr</a></p>&mdash; Joseph Redmon (@pjreddie) <a href="https://twitter.com/pjreddie/status/1230524770350817280?ref_src=twsrc%5Etfw">February 20, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>또한 DALL-E2와 같은 생성형 이미지가 예술계에 너무 큰 영향을 미쳐서 AI가 그린 그림을 예술로 받아들여야 할지, 기술적 양극화가 가속되지 않을지 등등 끊임 없이 논의되고 있습니다. <a href="https://www.yna.co.kr/view/AKR20220904008400009">링크1</a>, <a href="https://www.hankookilbo.com/News/Read/A2023060412050003523">링크2</a></p>
+
+<p>ChatGPT는 아시다시피 남오용에 대한 사례들이 수없이 쏟아져 나오고 있습니다. 특히 대본작가, 소설가, 기자와 같이 글을 쓰는 직업은 직격타를 맞고 실제로 일자리 마저 빼앗기고 있습니다. ChatGPT가 나온 이후 제프리 힌튼 교수는 강인공지능의 실현은 아직 많이 멀었다는 입장을 철회하고 구글에서 퇴사하기까지 했습니다.</p>
+
+<p>이처럼 인공지능을 공부하고 연구하여 발전에 이바지하는것도 중요하지만 내가 하는 연구가 인간의 생활에 어떤 영향을 끼칠지 생각하는 철학적 사고도 중요하다고 생각합니다.</p>]]></content><author><name>jiogenes</name></author><category term="리뷰" /><summary type="html"><![CDATA[안녕하세요. jiogenes입니다.]]></summary></entry><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 1</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 1" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
 
 <p>인공지능을 처음 배우면서 가장 어려웠던 부분이 인공지능의 이론과 역사가 머리속에서 단순하게 그려지지 않았던 부분입니다.</p>
 
