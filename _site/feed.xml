@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-15T17:39:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jiogenes</title><subtitle>Tech Blog</subtitle><author><name>jiogenes</name></author><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 1</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 1" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-16T22:40:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jiogenes</title><subtitle>Tech Blog</subtitle><author><name>jiogenes</name></author><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 2</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 2" /><published>2023-07-16T00:00:00+09:00</published><updated>2023-07-16T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
+
+<p>이번 시간에는 본격적으로 인공지능을 공부하기에 앞서 인공지능에 대한 간단한 역사와 최근 동향들을 살펴보겠습니다.</p>
+
+<h2 id="인공지능에-관한-고찰">인공지능에 관한 고찰</h2>
+
+<p>우리는 인공지능이라는 말을 최근 들어서 굉장히 많이 듣고 사용하고 있지만 막상 인공지능이라는 것을 명확하게 설명하기란 쉽지 않습니다. 우선 인공지능을 설명하기 전에 지능이라는 것이 어떤 것인지 알아야 겠죠? 그렇다면 도대체 지능이라는 것은 무엇일까요?</p>
+
+<blockquote>
+  <p>지능(智能) 또는 인텔리전스(영어: intelligence)는 인간의 지적 능력을 말한다. 지능은 심리학적으로 새로운 대상이나 상황에 부딪혀 그 의미를 이해하고 합리적인 적응 방법을 알아내는 지적 활동의 능력으로 정의할 수 있다. - 위키백과</p>
+</blockquote>
+
+<p>지능의 사전적의미는 인간이 가진 지적 능력을 말합니다. 적응적이고 융통성이 있으며 학습 능력을 갖추고 감정과 독립하여 사고하는 기능을 의미합니다. 따라서 우리가 일반적으로 생각하는 지능이라는 것은 <code class="language-plaintext highlighter-rouge">자연지능(Natural Intelligence)</code>이고 이것을 사람들이 정보처리장치를 통해 인위적으로 재현하고자 하는 것이 <code class="language-plaintext highlighter-rouge">인공지능(Artificial Intelligence)</code>이라 할 수 있겠습니다.</p>
+
+<h2 id="인공지능의-역사">인공지능의 역사</h2>
+
+<p>만약 인간이 아닌 기계가 인간의 지능을 가진다면 어떤 일이 일어날까요? 그 기대와 관심은 <code class="language-plaintext highlighter-rouge">트렌지스터</code> 가 발명되고 최초의 컴퓨터 <code class="language-plaintext highlighter-rouge">ENIAC</code> 을 만들었던 1940년대에서부터 시작합니다.</p>
+
+<p>지능이라는 것은 굉장히 추상적이고 정량적으로 계산할 수 없기 때문에 컴퓨터가 지능이 있는지 없는지 판단하기 위해 앨런 튜링은 1950년에 <code class="language-plaintext highlighter-rouge">튜링 테스트</code>를 제안합니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">튜링 테스트</code>란 서로 벽을 사이에 두고 진짜 사람과 컴퓨터가 무작위로 대답하는 과정에서 평가자가 누가 대답하는지 알지 못한다면(사람이 대답한다고 생각한다면) 컴퓨터가 지능을 가진 것으로 판단하는 테스트입니다.</p>
+
+<p>
+    <img width="246" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/1718817b-1cad-488e-9820-bf00a914958a" />
+    <em>튜링 테스트 [출처:위키]</em>
+</p>
+
+<p>인공지능이라는 용어는 1956년 매카시 교수가 개최한 <code class="language-plaintext highlighter-rouge">다트머스 회의</code>에서 처음 사용되었다고 전해집니다. <code class="language-plaintext highlighter-rouge">다트머스 회의</code>는 매카시 교수가 단순한 오토마타의 기능을 넘어 지능을 가진 컴퓨터를 연구하고자 하는 목적에서 제안한 컨퍼런스로 당시 맥카시 교수가 알고 있는 지인 중에 인공지능에 관심이 있었던 마빈 민스키, 클로드 셰넌, 나다니엘 로체스터와 함께 록펠러 재단에 제안서를 제출하면서 시작됐습니다.</p>
+
+<p>1958년에는 당시 코넬 항공 연구소에 재직중이던 로젠블랏이 <code class="language-plaintext highlighter-rouge">퍼셉트론</code>이라는 신경세포를 모델로 하는 <code class="language-plaintext highlighter-rouge">신경망</code> 모델을 제안했습니다. <code class="language-plaintext highlighter-rouge">퍼셉트론</code>은 학습과 인지가 가능하다는 점에서 상당한 관심을 받았으나 마빈 민스키와 시모어 페퍼트가 1969년에 발표한 <code class="language-plaintext highlighter-rouge">Perceptrons</code>라는 책에서 SLP(Single Layer Perceptron)는 선형 분리가 가능한 문제만 해결할 수 있음을 보이면서 MLP(Multi Layer Perceptron)로는 XOR연산과 같은 비선형 문제들도 해결할 수 있음을 보였습니다.</p>
+
+<p>하지만 이때까지만 하더라도 SLP의 활성화 함수로 step function을 사용했는데 미분이 불가능해서 최적화 기법을 사용할 수 없었습니다. 마찬가지로 MLP역시 당시로써는 미분 불가한 활성화함수 때문에 MLP를 학습시킬 수 있는 방법이 없었고 학자들의 관심도가 떨어지며 신경망 연구는 침체기를 겪게 됩니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">신경망</code> 연구는 침체기를 겪었지만 그렇다고 인공지능에 대한 연구 전체가 침체된 것이 아닙니다. 뉴월과 사이먼은 지금의 강화학습과 비슷한 <code class="language-plaintext highlighter-rouge">수단-목표 분석(means-ends analysis)</code> 방법을 제안했고 <code class="language-plaintext highlighter-rouge">전문가 시스템</code>도 많은 발전을 이루었습니다.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>💬 혹자는 인공지능 연구가 마치 활성화 됐다가 침체기를 겪었다 반복하는 것처럼 말하기도 하는데, 제 생각에는 기호주의 학파와 연결주의 학파간의 대립 때문에 침체기와 같은 표현이 생겼다고 생각합니다. 공학자 및 연구자로써 인공지능과 같은 시스템을 만드는데 관심이 없을수는 없다고 생각합니다. 폰 노이만 같은 사람들도 죽기전까지 기계의 생명체화 같은 연구에 몰두하고 있었고 실제로 연결주의 방식이 한계에 부딪힐 때도 여러 머신러닝 기법과 기호주의 인공지능 시스템은 산업에서 사용되고 있었으니까요. 독자분들은 어떻게 생각하시나요?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>이후 1986년에 제프리 힌튼, 로널드 윌리엄스, 데이빗 럼멜하트가 <code class="language-plaintext highlighter-rouge">오차 역전파(backpropagation)</code> 알고리즘을 통해 MLP를 학습시킬 수 있음을 증명하였고 잠시 신경망 연구의 부흥을 이끌었으나 다시 기울기 소실 문제로 인해 신경망 연구가 침체되었습니다.</p>
+
+<p>1990년도 이후 부터는 인공지능을 기호주의와 연결주의를 막론하고 인간지능을 구현한다는 막연한 목표에서 수치계산 위주의 문제해결 및 비즈니스 중심으로 목표를 전환하였습니다. 이때부터 아직까지 산업현장에서 사용되고 있는 결정트리, 서포트 벡터 머신 등 다양한 머신러닝 기법들이 등장하기 시작했습니다.</p>
+
+<h2 id="강인공지능과-약인공지능">강인공지능과 약인공지능</h2>
+
+<p>우리는 인공지능의 목적을 구분하기위해 <code class="language-plaintext highlighter-rouge">강인공지능</code>과 <code class="language-plaintext highlighter-rouge">약인공지능</code>으로 구분해 볼 수 있습니다. 이 개념들은 1980년에 미국의 철학자 존 설 교수의 <code class="language-plaintext highlighter-rouge">중국어 방 사고실험</code>으로부터 파생된 개념입니다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">중국어 방 사고실험</code>이란 어떤 방에 중국어를 모르는 사람이 있고 실험 참가자가 방에 중국어로 쓰여진 질문지를 넣으면 방에 있던 사람이 중국어 질문 응답 목록을 살펴보고 질문지에 적절한 답변을 적는다는 사고실험 입니다. 실험 참가자는 방 안에 있는 사람이 중국어를 할 줄 안다고 생각할까요? 모른다고 생각할까요?</p>
+
+<p>이처럼 <code class="language-plaintext highlighter-rouge">중국어 방 사고실험</code>은 문답이 완벽하게 이루어 지더라도 기계가 정말로 중국어를 이해 했는지 안했는지는 알 수 없듯이 기계가 <code class="language-plaintext highlighter-rouge">튜링 테스트</code>를 통과했다고 하더라도 실제로 지능을 가졌는지 알 수 없다는 주장을 뒷받침하기 위한 사고실험입니다.</p>
+
+<p>존 설 교수의 의도는 인간의 마음을 실제로 컴퓨터 소프트웨어와 일치시키는 연구를 강한 인공지능 연구라 하였고 인간의 마음과는 별개로 문제해결을 위해 유용한 도구의 개발을 위한 연구는 약한 인공지능 연구라 하였습니다. 이러한 개념이 실제 연구의 개념과도 부합하다보니 <code class="language-plaintext highlighter-rouge">강인공지능</code>과 <code class="language-plaintext highlighter-rouge">약인공지능</code>을 구별하기 시작했습니다. 참고로 지금까지 나온 인공지능은 모두 <code class="language-plaintext highlighter-rouge">약인공지능</code>입니다.</p>
+
+<p>앞서 우리는 인공지능이란 인간과 같은 자연지능을 모방해서 인공적으로 만드는것이라 정의했는데 현재까지 만든 모든 인공지능은 이 정의에는 부합하지 않는것 같습니다. 여러분이 생각하기에 인공지능은 정말 <code class="language-plaintext highlighter-rouge">약인공지능</code>으로써 특정 문제해결에만 사용될까요? 아니면 <code class="language-plaintext highlighter-rouge">강인공지능</code>이 정말 만들어질 수 있다고 생각하시나요?</p>
+
+<h2 id="인공지능의-최근-동향">인공지능의 최근 동향</h2>
+
+<p>인공지능은 정말 기하급수적으로 발전하고 있습니다. 2006년 제프리힌튼 교수가 이끄는 AlexNet 팀이 <a href="https://www.image-net.org/challenges/LSVRC/">ILSVRC</a>라는 컴퓨터 비전 대회에서 앞선 연구들과 큰 격차로 우승했던것을 기점으로 연구자들 사이에서 센세이션을 일으켰습니다. 이로인해 대회에 참가하는 다른 팀들도 거의다 딥러닝 기법을 사용하기 시작했고 결국 ILSVRC는 2017년에 딥러닝 모델이 인간이 한 것 보다 더 잘하게 된 이후 대회가 종료되었습니다.</p>
+
+<p>그리고 IBM에서 2011년에 발표한 <code class="language-plaintext highlighter-rouge">왓슨</code>이 미국의 퀴즈쇼 제퍼디(Jeopardy!)에서 다른 인간 참가자들과 경쟁하여 우승하기도 했습니다. 전세계적으로 딥러닝이라는 말을 사람들에게 각인시킨 사건은 2016년 이세돌 기사와 바둑 대국을 둔 <code class="language-plaintext highlighter-rouge">알파고</code>가 아닐까 싶습니다. 저도 당시 TV를 통해 이세돌과 알파고가 바둑두던 생중계를 지켜보던 기억이 나는데, 아마도 그때부터 인공지능 분야에서 일을 해보고 싶다는 생각을 하게 된 것 같습니다.</p>
+
+<p>이 후에도 정말 많고 많은 위대한 연구들이 있지만 다 소개하기는 힘들것 같고 제가 아는 선에서 간단하게 최신 연구들을 소개하고 마무리를 지어볼까 합니다.</p>
+
+<p>먼저 컴퓨터 비전 분야에서 빠질 수 없는 객체 탐지와 인식, 사람 탐지 및 자세 추정 그리고 이미지 세그맨테이션의 대표자로써 <a href="https://pjreddie.com/darknet/yolo/">YOLO(You only look once)</a>가 있습니다. YOLO는 실시간으로 객체탐지가 가능하기 때문에 자율주행, CCTV와 같은 분야에서 널리 사용되고 있습니다.</p>
+
+<p>
+    <img width="735" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/6547fddc-ccce-46d3-a6b1-28b1957d0f28" />
+    <em>YOLOv1 (현재 YOLOv8 까지 출시) [출처:YOLO 홈페이지]</em>
+</p>
+
+<p>마찬가지로 이미지 세그맨테이션 분야에서 센세이션을 일으켰던 <a href="https://segment-anything.com/">SAM(Segment Anything)</a>이 있습니다. SAM은 실시간은 아니지만 사용자의 반응(클릭)을 통해 객체와 배경을 분리할 수 있는 기술입니다. Meta에서 개발한 SAM은 압도적인 퍼포먼스로 기존 이미지 세그먼트 연구들을 모두 제쳤습니다. SAM은 편집, 증강현실 또는 가상현실과 같은 다양한 산업분야에서 사용할 수 있습니다.</p>
+
+<p>
+    <img width="817" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/39aaa8b1-0512-4973-9de6-2b0674717818" />
+    <em>Meta의 SAM(Segment Anything) 데모 [출처:SAM 홈페이지]</em>
+</p>
+
+<p>기존 이미지를 분석하는 기술도 있지만 새로 이미지를 생성하는 기술도 눈부신 발전을 이루었습니다. 대표적으로 OpenAI의 <a href="https://openai.com/dall-e-2">DALL-E2</a>가 있습니다. DALL-E2는 사람이 글을 적으면 그 글에 맞는 이미지를 생성해 줍니다. 전작인 DALL-E와 Stable Diffusion과 같은 다른 모델들도 많습니다.</p>
+
+<p>
+    <img width="731" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/87360802-cefc-4ffe-aa7f-11103632654f" />
+    <em>DALL-E2 데모 [출처:DALL-E2 홈페이지]</em>
+</p>
+
+<p>그리고 지금까지 없었던 AGI(Artificial General Intelligence, 강인공지능)의 꿈을 실현시킬 실마리가 될 역사적인 <a href="https://openai.com/blog/chatgpt">ChatGPT</a>가 있습니다. ChatGPT는 언어모델로써 텍스트 형식으로 대화를 할 수 있는 모델입니다. 챗봇과 채팅을 하듯이 질문이나 혹은 그냥 대화거리를 던져주면 이에 대한 응답을 하는데 웬만한 사람보다도 나은 대답을 해줍니다. ChatGPT의 등장 이전에는 강인공지능의 실현이 아직 한참 멀었다는 의견이 주류였지만 ChatGPT가 등장하고 나서 많은 연구자들이 의견을 정정할 정도로 정말 큰 파장을 불러 일으켰습니다. 또한 인공지능을 막연히 컴퓨터 과학자들의 영역이라고 생각했던 다른 분야의 사람들도 ChatGPT를 사용해보고 실생활에 활용하는 사례가 기하급수적으로 늘고 있습니다.</p>
+
+<p>
+    <img width="735" alt="image" src="https://github.com/jiogenes/utterances/assets/43975730/84f222a6-7fe8-4238-97bf-6f727ec322da" />
+    <em>ChatGPT와의 대화 [출처:ChatGPT]</em>
+</p>]]></content><author><name>jiogenes</name></author><category term="리뷰" /><summary type="html"><![CDATA[안녕하세요. jiogenes입니다.]]></summary></entry><entry><title type="html">인공지능 튜링 테스트에서 딥러닝까지 - 1</title><link href="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html" rel="alternate" type="text/html" title="인공지능 튜링 테스트에서 딥러닝까지 - 1" /><published>2023-07-15T00:00:00+09:00</published><updated>2023-07-15T00:00:00+09:00</updated><id>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2</id><content type="html" xml:base="http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html"><![CDATA[<p>안녕하세요. jiogenes입니다.</p>
 
 <p>인공지능을 처음 배우면서 가장 어려웠던 부분이 인공지능의 이론과 역사가 머리속에서 단순하게 그려지지 않았던 부분입니다.</p>
 
@@ -37,13 +130,9 @@
 
 <p>종종 방문해 주시면 감사하겠습니다.</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>What I cannot create, I do not understand - Richard Feynman</td>
-    </tr>
-  </tbody>
-</table>
+<blockquote>
+  <p>What I cannot create, I do not understand - Richard Feynman</p>
+</blockquote>
 
 <div style="width:100%;height:0;padding-bottom:84%;position:relative;"><iframe src="https://giphy.com/embed/3pZipqyo1sqHDfJGtz" width="100%" height="100%" style="position:absolute" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe></div>
 <p><a href="https://giphy.com/gifs/sesamestreet-3pZipqyo1sqHDfJGtz"></a></p>]]></content><author><name>jiogenes</name></author><category term="잡담" /><summary type="html"><![CDATA[들어가며]]></summary></entry></feed>

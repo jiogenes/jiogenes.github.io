@@ -34,3 +34,10 @@ $brand-color: map-get($brand-colors, "orangered");
 }
 
 @import "yat";
+
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}

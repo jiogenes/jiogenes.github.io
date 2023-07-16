@@ -558,4 +558,6 @@ body { top: 0px !important; }
 
 .gitment-heart-icon { fill: #ff0808; }
 
+img + em { display: block; text-align: center; font-size: .8rem; color: light-grey; }
+
 /*# sourceMappingURL=main.css.map */
