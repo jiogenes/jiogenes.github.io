@@ -1,30 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/%EC%9E%A1%EB%8B%B4/2023/07/14/1.html</loc>
-<lastmod>2023-07-14T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html</loc>
-<lastmod>2023-07-15T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html</loc>
-<lastmod>2023-07-16T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/archives.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/categories.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags.html</loc>
-</url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/16/3.html</loc>
+        
+        <lastmod>2023-07-16T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EB%A6%AC%EB%B7%B0/2023/07/15/2.html</loc>
+        
+        <lastmod>2023-07-15T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/%EC%9E%A1%EB%8B%B4/2023/07/14/1.html</loc>
+        
+        <lastmod>2023-07-14T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
 </urlset>
