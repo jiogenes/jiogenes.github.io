@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 리스트 컴프리헨션
+title: "[Effective Python] 리스트 컴프리헨션"
 subtitle: map과 filter를 대신하는 list comprehension
 categories: Python
 comments: true

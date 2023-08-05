@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 시퀀스 슬라이스
+title: "[Effective Python] 시퀀스 슬라이스"
 subtitle: 파이썬스러운 시퀀스 슬라이스
 categories: Python
 comments: true
