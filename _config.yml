@@ -179,10 +179,14 @@ utterances:
   repo: "jiogenes/comments"
 
 # Build settings
-# highlighter: none
+# highlighter: rouge
 markdown: kramdown
 kmarkdown:
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 plugins:
   - jekyll-feed
