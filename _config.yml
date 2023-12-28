@@ -181,7 +181,7 @@ utterances:
 # Build settings
 # highlighter: rouge
 markdown: kramdown
-kmarkdown:
+kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
