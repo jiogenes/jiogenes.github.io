@@ -23,7 +23,10 @@ use_math: true
 
 ## 트랜스포머 구조
 
+<p>
 <img width="600" alt="Untitled 1" src="https://github.com/jiogenes/utterances/assets/43975730/bfbaa5b0-0143-48a9-b2df-d2ff5e773988">
+<em>그림1. 트랜스포머 아키텍쳐</em>
+</p>
 
 익숙한 트랜스포머 구조입니다.
 
@@ -116,7 +119,7 @@ class Embedding(nn.Module):
 
 트랜스포머 논문에서는 sin, cos을 사용한 절대 위치 인코더를 사용하긴 하지만 위치 임베딩을 임베딩 레이어로 구현하는 경우도 많습니다. 문맥 내에서 유동적인 위치에 대해 학습이 가능하기 때문에 우리도 임베딩 레이어로 구현해 보겠습니다.
 
-4번 라인에서 위치 임베딩을 선언하고 5번 라인에서 토큰 임베딩을 선언합니다. 위치 임베딩은 최대 입력 토큰 갯수만큼, 토큰 임베딩은 당연히 보캡 갯수만큼 선언해 줍니다. 위치 임베딩을 생성할 때 torch.arange로 만든 텐서의 디바이스도 맞춰줍니다.
+4번 라인에서 위치 임베딩을 선언하고 5번 라인에서 토큰 임베딩을 선언합니다. 위치 임베딩은 최대 입력 토큰 갯수만큼, 토큰 임베딩은 당연히 보캡 갯수만큼 선언해 줍니다. 위치 임베딩을 생성할 때 `torch.arange`로 만든 텐서의 디바이스도 맞춰줍니다.
 
 12번 라인에서 토큰 임베딩과 위치 임베딩을 더해주면 임베딩 레이어의 역할은 끝입니다.
 
@@ -182,7 +185,7 @@ class MultiHeadAttentionLayer(nn.Module):
 
 한 헤드에서 hidden dimension을 헤드 갯수로 나눈 길이만큼 출력하도록 셀프 어텐션을 만들어 줍니다. BERT의 hidden dimension은 768이고 헤드 갯수가 12개 이므로 각각 헤드의 출력은 64 입니다. 각각 헤드의 출력은 다시 concat 시켜서 원래 hidden dimension 길이로 맞춰줍니다. 사실 중간에 head dimension은 꼭 이 크기가 아니어도 상관없습니다. 마지막 output weight에서 최종 출력 길이를 조정할 수 있기 때문입니다.
 
-그리고 8번 라인에서 Pytorch의 nn.Module 클래스에서 리스트 컴프리헨션 방식으로 만들어진 파라미터도 nn.ModuleList 를 통해 관리할 수 있도록 만들어 주는것도 잊어버리지 않도록 합니다.
+그리고 8번 라인에서 Pytorch의 `nn.Module` 클래스에서 리스트 컴프리헨션 방식으로 만들어진 파라미터도 `nn.ModuleList` 를 통해 관리할 수 있도록 만들어 주는것도 잊어버리지 않도록 합니다.
 
 ### 피드 포워드
 
@@ -228,7 +231,7 @@ class TransformerEncoderLayer(nn.Module):
         return x
 ```
 
-그림에서 보듯이 멀티 헤드 어탠션과 피드 포워드의 출력에 layer norm과 skip connection을 사용하기 때문에 이것만 구현해 주면 됩니다. 따라서 2개의 layer norm을 선언해 줍니다.
+그림1 에서 보듯이 멀티 헤드 어탠션과 피드 포워드의 출력에 layer norm과 skip connection을 사용하기 때문에 이것만 구현해 주면 됩니다. 따라서 2개의 layer norm을 선언해 줍니다.
 
 트랜스포머 본문에서는 멀티 헤드 어텐션과 피드 포워드의 출력에 layer normalization을 수행하지만 이 후 많은 연구를 통해 입력에 layer norm을 미리 수행하면 학습이 더 안정적으로 된다는 사실이 밝혀졌습니다. 우리도 layer norm을 앞당겨 사전 층 정규화를 적용해 보죠.
 
@@ -247,10 +250,8 @@ class TransformerEncoder(nn.Module):
 
     def forward(self, input_ids, attention_mask=None):
         x = self.embedding(input_ids)
-        result = []
         for layer in self.encoder:
             x = layer(x, attention_mask)
-            result.append(x)
         return result
 ```
 
@@ -282,7 +283,7 @@ class MaskedSelfAttention(nn.Module):
         return torch.bmm(weight, value)
 ```
 
-14번 라인에서 어텐션 마스크가 아니라 torch.tril를 통해 삼각행렬 형태의 마스크를 만들어 줍니다. 입력된 타겟을 차례대로 보기 위함입니다.
+14번 라인에서 어텐션 마스크가 아니라 `torch.tril`를 통해 삼각행렬 형태의 마스크를 만들어 줍니다. 입력된 타겟을 차례대로 보기 위함입니다.
 
 ### 마스크 멀티 헤드 어텐션
 
@@ -377,7 +378,7 @@ class TransformerDecoderLayer(nn.Module):
         return x
 ```
 
-그림에서 보듯이 인코더에 비해 마스크 멀티 헤드 어텐션과 크로스 어텐션이 추가되었고 인코더에서 오는 키, 벨류 값을 받을 수 있습니다.
+그림1 에서 보듯이 인코더에 비해 마스크 멀티 헤드 어텐션과 크로스 어텐션이 추가되었고 인코더에서 오는 키, 벨류 값을 받을 수 있습니다.
 
 ### 디코더
 
@@ -393,8 +394,8 @@ class TransformerDecoder(nn.Module):
 
     def forward(self, src, tgt, attention_mask=None):
         x = self.embedding(tgt)
-        for s, layer in zip(src, self.decoder):
-            x = layer(s, x, attention_mask)
+        for layer in self.decoder:
+            x = layer(src, x, attention_mask)
         logits = self.linear(x)
         return logits
 ```
@@ -617,6 +618,14 @@ tokenizer.decode(result[0])
 
 <img width="611" alt="Untitled 3" src="https://github.com/jiogenes/utterances/assets/43975730/da9c5530-7996-49f0-aa8a-3c07e827c82e">
 
+## 결론
+
 우리가 구현한 트랜스포머는 확실히 옛날 구식 모델이지만 최근의 LLM들 모두 이 트랜스포머 구조를 크게 벗어난 모델이 없습니다. 트랜스포머를 제대로 이해하고 구현과 학습을 잘 할줄 안다면 자연어 처리 분야에서 최고의 무기를 가진것이나 다름 없습니다.
 
-구현한 코드를 좀 더 빠르게 학습하는 방법, 학습 효율을 높이는 방법 등 트랜스포머를 좀 더 활용하는 방법은 추후에 작성하도록 하겠습니다.
+우리가 구현한 코드는 정말 나이브한 방법으로 작성된 것입니다. 처음부터 행렬을 크게 만들어서 쪼개고 어텐션 마스크와 디코더 마스크를 만드는 것들은 논문에 나와있지 않을 뿐더러 트랜스포머를 처음 공부할때 가장 많이 헷갈리는 부분 중 하나입니다. 우리가 구현한 코드는 이런 헷갈리는 부분을 제외하고 직관적으로 구현했으므로 이해하는데는 큰 어려움이 없지만 for문 때문에 시간이 오래 걸리고 주요 코드가 반복돼서 나타나므로 코드 리펙토링이 필요합니다.
+
+많은 다른 블로그에서 트랜스포머를 구현한 방법 처럼 내부적으로 for문을 쓰지 않고 쿼리, 키, 밸류를 헤드크기 만큼 미리 여러개 만들어서 쪼개면 병렬화를 할 수 있습니다. 또한, 마스크 셀프 어텐션이나 크로스 어텐션 처럼 다른 클래스를 만들지 않고 하나의 셀프어텐션 클래스와 멀티헤드어텐션 클래스로도 충분히 트랜스포머를 구현할 수 있죠.
+
+구현한 코드를 좀 더 빠르게 학습하는 방법, 학습 효율을 높이는 방법, 코드 리펙토링등 우리가 구현한 트랜스포머를 좀 더 고급지게 만들 방법은 다음 시리즈로 작성하도록 하겠습니다.
+
+읽어주셔서 감사합니다 🤗
