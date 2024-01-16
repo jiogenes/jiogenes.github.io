@@ -1,9 +1,10 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 // Define defaults for each variable.
 
-$base-font-family: Helvetica, Arial, Oswald, sans-serif, !default;
-$base-font-size: 14px !default;
+$base-font-family: Nanum Gothic !default; // Helvetica, Arial, Oswald, sans-serif, !default;
+$base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.6 !default;
@@ -34,7 +35,7 @@ $banner-text-color: lighten($white-color, 0%) !default;
 $banner-background: rgba(0,0,0,0.8) !default;
 
 // Width of the content area
-$content-width:    920px !default;
+$content-width:    1200px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
