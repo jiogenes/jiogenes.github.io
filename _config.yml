@@ -158,10 +158,10 @@ defaults:
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt size setting
-# excerpt_size: 350
+#   excerpt_size: 350
 
 # Pagination setting
-# paginate: 5
+#   paginate: 5
 
 # Disqus comments
 # disqus:
