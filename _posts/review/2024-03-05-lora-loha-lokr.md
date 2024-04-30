@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LoRA vs LoHa vs LoKr"
+title: "[논문리뷰] LoRA vs LoHa vs LoKr"
 subtitle:
 categories: 논문리뷰
 comments: true
